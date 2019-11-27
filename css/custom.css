@@ -1,4 +1,25 @@
+/* modificaciones básicas */
+.form-control:valid {
+    color: #1cc88a;
+}
+
+.form-control:focus:invalid {
+    color: #e74a3b;
+    border-color: #e74a3b;
+    box-shadow: 0 0 0 0.2rem rgb(231, 74, 59, 0.25);
+}
+
+/* fin mod básicas */
+
 /* Imágenes unsplash */
+.bg-imagen-nuevoDisco {
+    background: url(https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=680&q=80);
+    background-position: center;
+    background-size: cover;
+    filter: grayscale(1);
+    display: none;
+}
+
 .bg-imagen-discos2 {
     background: url(https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=680&q=80);
     background-position: center;
@@ -68,6 +89,7 @@ header .overlay {
 
 /* fin Video fondo */
 
+/* clases para detalles */
 .transparente {
     background: rgba(0, 0, 0, 0.5);
 }
@@ -83,3 +105,5 @@ a.blanco:hover {
 .hover-rojo:hover {
     color: red;
 }
+
+/* fin detalles */
