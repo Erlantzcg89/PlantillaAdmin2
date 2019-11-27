@@ -67,3 +67,19 @@ header .overlay {
 }
 
 /* fin Video fondo */
+
+.transparente {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.blanco {
+    color: white;
+}
+
+a.blanco:hover {
+    text-decoration: none;
+}
+
+.hover-rojo:hover {
+    color: red;
+}
