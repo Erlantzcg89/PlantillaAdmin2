@@ -294,8 +294,8 @@
 
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Nuevo disco</h1>
-          <p>Registra un nuevo disco en nuestra base de datos</p>
-          <p class="mb-4">Carátulas de ejemplo: https://i.ytimg.com/vi/EAsSHrJT-as/hqdefault.jpg <i class="fa"></i></p>
+          <p>Registra un nuevo disco en nuestra base de datos. Carátulas de ejemplo: </p>
+          <p id="textoPortapapeles" class="mb-4 d-inline">https://i.ytimg.com/vi/EAsSHrJT-as/hqdefault.jpg</p>
 
           <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
@@ -354,20 +354,6 @@
 
                     }
 
-                    function myFunction() {
-                      /* Get the text field */
-                      var copyText = document.getElementById("portapapeles");
-
-                      /* Select the text field */
-                      copyText.select();
-                      copyText.setSelectionRange(0, 99999); /*For mobile devices*/
-
-                      /* Copy the text inside the text field */
-                      document.execCommand("copy");
-
-                      /* Alert the copied text */
-                      alert("Copied the text: " + copyText.value);
-                    }
                   </script>
                 </div>
 
